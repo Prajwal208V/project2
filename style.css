@@ -1,0 +1,165 @@
+body{
+    background-color: whitesmoke;
+}
+#main-continer{
+    background-color:white;	;
+    border:1px solid lightgrey;
+    margin-top:50px;
+    margin-left:5%;
+    width:90%;
+    height:600px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+#header{
+    display:flex;
+    margin-top:7%;
+    margin-left:20%;
+    font-family: 'Open Sans', sans-serif;
+}
+div #add-list-button{
+    margin-left:10%;
+    font-size:40px;
+    color:rgba(138, 128, 128, 0.692);
+    font-weight:100;
+}
+div #header-titile{
+    font-size:60px;
+}
+div #header-titile lkm{ 
+    font-weight:1px;
+    color:rgba(78, 73, 73, 0.541)
+}
+    
+#icon{
+    color:rgb(241, 83, 83);
+    margin-right:10px;
+    font-size:43px;
+}
+#add-list-button{
+    position:relative;
+    left:120px;
+    margin-top:10px;
+}
+#continer-holder{
+    display:flex;
+    margin-top:20px;
+    margin-left:20%;
+    font-family: 'Open Sans', sans-serif;
+}
+.inside-continer{
+    border:1px solid #FA8072;
+    border-radius:8px;
+    width:230px;
+    height:320px;
+    color:rgba(8, 8, 8, 0.753);
+    box-shadow:5px 5px  0.3em lightgrey;
+   
+}
+div .inside-continer p{
+
+}
+#continer2{
+    margin-left:20px;
+}
+#continer3{
+    margin-left:20px;
+}
+div .inside-continer strong {
+    color:	#FA8072;
+    font-weight:100;
+    font-size: 2em;
+}
+div .inside-continer p{
+    color:red;
+    text-decoration: line-through;
+    font-size:1.5em ;
+    margin-left:40px;
+}
+div .inside-continer input{
+    float:left;
+    width:20px;
+    height:20px;
+}
+
+div .inside-continer lkm{
+    float:left;
+    margin-left:10px;
+    font-size:1.4em;
+}
+div .inside-continer hr{
+    width: 80%;
+    float:right;
+    height:0.00004%;
+}
+#page-linker{
+    margin-top:30px;
+}
+div #page-linker a{
+    color:rgba(138, 128, 128, 0.692);
+    height:1rem;
+    font-size:2rem;
+}
+
+
+
+
+#page2-header{
+    display: flex;
+    
+}
+div #page2-header hr{
+    width:5%;
+    height:0.00004%;
+}
+div #page2-header p{
+    font-weight:900;
+    font-size:4rem;
+    margin-top:10px;
+    margin-bottom:10px;;
+}
+#icon{
+    color:rgb(241, 83, 83);
+}
+#page2-button{
+    margin-top:5px;
+    margin-bottom:20px;
+}
+div #page2-button lkm{
+    color:rgba(138, 128, 128, 0.692);
+    font-weight:100;
+    font-size:2.2rem;
+}
+#page2-continer{
+    border:1px solid #FA8072;
+    border-radius:8px;
+    width:530px;
+    height:240px;
+    color:rgba(8, 8, 8, 0.753);
+    box-shadow:5px 5px  0.3em lightgrey;
+    margin-left:30%;
+    margin-top:10%;
+    color:rgb(238, 99, 99);
+}
+div #page2-continer p{
+    font-size:2.2em;
+}
+#input-box{
+    color:rgb(241, 83, 83);
+    width:70%;
+    border:1px solid rgb(241, 83, 83);
+    border-radius:5px;
+    height: 30px;
+    margin-top:3%;
+    box-shadow:5px 5px  0.3em lightgrey;
+}
+#submit-button{
+    margin-top:1%;
+    width:120px;
+    height:40px;
+    background-color:rgb(241, 83, 83);
+    color:white;
+    border:1px solid rgb(241, 83, 83);
+    border-radius:20px;
+    font-size:25px;
+}

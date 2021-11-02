@@ -8,9 +8,37 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="all.css">
     <script src="all.js"></script>
+    <style>
+        #page2-continer{
+            width:480px;
+            height:240px;
+            color:#FA8072;
+        }
+        .page3-main-container{
+            margin-top: 5%;
+        }
+        #page-linker{
+            margin-top:67px;
+        }
+    </style>
 </head>
 <body>
     <div id="main-continer">
+    <div  id="page3">
+        <div>
+            <div id="header">
+                <div id="header-titile"><strong>Tasks </strong><lkm>Lists</lkm></div>
+                <div id="add-list-button"><i class="fas fa-plus-circle" id="icon"></i>Add List</div>
+             </div>
+        </div>
+        <div id="continer-holder">
+          <div class="inside-continer " id="continer1"><br><strong >Trip to Paris</strong><br><hr><br><p>Completed Task</p><input type="checkbox" value="completed" name="pending-value"><lkm>Pending Task</lkm></div> 
+          <div class="inside-continer" id="continer2"><br><strong>My Todo List</strong><br><hr><br><p>Completed Task</p><input type="checkbox" value="completed" name="pending-value"><lkm>Pending Task</lkm></div>
+          <div class="inside-continer" id="continer3"><br><strong>My Todo List</strong><br><hr><br><p>Completed Task</p><input type="checkbox" value="completed" name="pending-value"><lkm>Pending Task</lkm></div> 
+        </div>
+    </div>
+
+    <div  class="page3-main-container">
         <div id="page2-continer">
             <p>Add New List</p>
             <input type="text" name="place" id="input-box"><br><br>
@@ -21,6 +49,7 @@
             <a href="index.html"><i class="fas fa-home"></i></a>
             <a href="page3.html"><i class="fas fa-chevron-right"></i></a>
         </div>
+    </div>
     </div>
 </body>
 </html>

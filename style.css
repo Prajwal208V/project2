@@ -56,9 +56,7 @@ div #header-titile lkm{
     box-shadow:5px 5px  0.3em lightgrey;
    
 }
-div .inside-continer p{
 
-}
 #continer2{
     margin-left:20px;
 }
@@ -93,7 +91,7 @@ div .inside-continer hr{
     height:0.00004%;
 }
 #page-linker{
-    margin-top:30px;
+    margin-top:10px;
 }
 div #page-linker a{
     color:rgba(138, 128, 128, 0.692);
@@ -114,36 +112,44 @@ div #page2-header hr{
 }
 div #page2-header p{
     font-weight:900;
-    font-size:4rem;
+    font-size:3rem;
     margin-top:10px;
-    margin-bottom:10px;;
+    margin-bottom:5px;
 }
 #icon{
     color:rgb(241, 83, 83);
-}
-#page2-button{
-    margin-top:5px;
-    margin-bottom:20px;
+    font-size:2rem;
 }
 div #page2-button lkm{
-    color:rgba(138, 128, 128, 0.692);
+    color:rgba(20, 16, 16, 0.692);
     font-weight:100;
-    font-size:2.2rem;
+    font-size:2rem;
 }
 #page2-continer{
     border:1px solid #FA8072;
     border-radius:8px;
-    width:530px;
-    height:240px;
-    color:rgba(8, 8, 8, 0.753);
+    width:430px;
+    height:340px;
     box-shadow:5px 5px  0.3em lightgrey;
-    margin-left:30%;
-    margin-top:10%;
-    color:rgb(238, 99, 99);
+    margin:auto;
+    margin-top:2%;
+    color:rgba(20, 20, 20, 0.753);
+    background-color:white;
+}
+div #page2-icon{
+    color: rgb(241, 83, 83);
+    font-size:2.5rem;
+    position:relative;
+    left:43px;
+    top:90px;
 }
 div #page2-continer p{
     font-size:2.2em;
 }
+div #page2-checkbox{
+    margin-left:20%;
+}
+
 #input-box{
     color:rgb(241, 83, 83);
     width:70%;
@@ -162,4 +168,20 @@ div #page2-continer p{
     border:1px solid rgb(241, 83, 83);
     border-radius:20px;
     font-size:25px;
+}
+
+#page3{
+    filter:blur(7px);
+    background-color:white;	;
+    border:1px solid lightgrey;
+    margin-top:50px;
+    margin-left:10%;
+    width:70%;
+    height:400px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+.page3-main-container{
+    position:relative;
+    bottom:300px;
 }

@@ -112,6 +112,98 @@ body{
     padding:2rem 0 0 0.8rem;
 }
 
+/* screen size between 320 and 600 piexl */
+@media all and (min-width:320px) and (max-width:600px){
+    .continer{
+        height:100vh;
+        width:50vw;
+    }
+    .index_header{
+        height:2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:1rem 0 0.5rem 0;
+    }
+    #left_index_header{
+        font-size:1.5rem;
+        font-weight:700;
+    }
+    #right_index_header{
+        font-size:1.5rem;
+        display:flex;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight:bold;
+        color:gray;
+    }
+    .index_plus{
+        color: tomato;
+        margin:0 10px 0 0;
+        font-size:2.8rem;
+    }
+    .index_span1{
+        font-family: 'Roboto', sans-serif;
+        font-weight:100;
+        color:gray;
+    }
+    #index_continer2{
+        width:8rem;
+        height:15rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .index_box{
+        width:5rem;
+        height:15rem;
+        border:2px solid tomato;
+        margin: 0;
+        border-radius:0.5rem;
+        box-shadow:0.6rem 0.6rem 0.8rem 0.1rem rgb(211, 211, 211);
+    }
+    .index_box>p:first-child{
+        font-size:1.1rem;
+        color: tomato;
+        text-align: center;
+        margin:1.8rem 0 0.5rem 0;
+    }
+    .index_box>hr{
+        width:80%;
+        float:right;
+        border:1px solid grey;
+    }
+    .index_box>hr~p{
+        float: right;
+        text-decoration:line-through;
+        text-decoration-thickness:3px;
+        margin:0.5rem 0.3rem 0 0.5rem;
+        font-size:1rem;
+        color: red;
+    }
+    .index_box>div>input{
+        width:0.2rem;
+        height:0.2rem;
+        font-weight:700;
+        margin:0 0.8rem 0 0;
+        
+    }
+    .index_box>div>span{
+        font-size:0.6rem;
+        font-weight:500;
+        font-family: "adobe-clean", sans-serif;
+        color: rgb(90, 88, 88);
+    }
+    .index_box>div{
+        width:100%;
+        display: flex;
+        align-items: center;
+        padding:2rem 0 0 0.8rem;
+    }
+}
+
+
+
+
 /* index02 */
 .index2_header>hr{
     width:19%;
@@ -228,7 +320,7 @@ body{
     margin:0.5rem 0 1rem 0;
     box-shadow:0.1rem 0.1rem 0.3rem 0.09rem rgb(211, 211, 211);
 }
-.index3_box>p~input[type=button]{
+.add_button{
     width:6.5rem;
     height:2.6rem;
     background-color:tomato;
@@ -237,3 +329,4 @@ body{
     border-radius:1.2rem;
     font-size:1.4rem;
 }
+
